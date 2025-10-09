@@ -8,4 +8,5 @@ My groupmembers are:
 
 
 ------------------ Fill in some information about your project under this ------------------
+
 Platform that reminds patients to take their medication, tracks adherence, and provides reports daily to healthcare providers helping to prevent non-adherence complications
