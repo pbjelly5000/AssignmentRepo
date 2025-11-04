@@ -1,3 +1,7 @@
+# Meditrack - Sprint 1 CMSC-355 Fall 2025
+# By Zain Al Rawi, Ashely Kubyako, Samir Yesli, Kyle Uson, Jamie Torrico, Rayyan Siddiqui
+# https://youtu.be/KW7Xd74p8Ns
+
 import tkinter
 from tkinter import messagebox
 
@@ -46,3 +50,4 @@ login_button.grid(row = 3, column = 0, columnspan = 2, pady = 30)
 frame.pack()
 
 window.mainloop()
+
