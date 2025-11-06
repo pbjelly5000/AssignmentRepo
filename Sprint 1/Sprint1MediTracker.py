@@ -17,6 +17,10 @@ def login():
         "AliceSmith": "qwerty",
         "BobJohnson": "arandompass"
     }
+    if "" in username_entry.get() or "" in password_entry.get():
+        messagebox.showerror(title = "Invalid Login", message = "Please fill in all fields")
+        return
+        
     # Login user input
     username = username_entry.get()
     password = password_entry.get()
@@ -50,4 +54,5 @@ login_button.grid(row = 3, column = 0, columnspan = 2, pady = 30)
 frame.pack()
 
 window.mainloop()
+
 
